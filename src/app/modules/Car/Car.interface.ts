@@ -1,11 +1,10 @@
-export type TCarFeatures = 'Bluetooth' | 'AC' | 'Sunroof';
 export type TCar = {
   name: string;
   description: string;
   color: string;
   isElectric: boolean;
-  status: string;
-  features: TCarFeatures[];
+  status: 'available' | 'unavailable';
+  features: string[];
   pricePerHour: number;
   isDeleted: boolean;
 };

@@ -5,7 +5,7 @@ const router = express.Router();
 
 const moduleRoutes = [
   {
-    path: '',
+    path: '/cars',
     route: CarRoute,
   },
 ];
